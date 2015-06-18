@@ -209,6 +209,5 @@ $video-thumb-url: '../themes/rpi/images/edx.png';
 }
 
 .home>header {
-    height: auto !important;
-    width: 100% !important;
+    background-size:contain;
 }

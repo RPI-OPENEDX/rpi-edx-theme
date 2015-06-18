@@ -207,8 +207,9 @@ $video-thumb-url: '../themes/rpi/images/edx.png';
     margin: 0 !important;
     text-align: right;
 }
+body { margin: 0}
 
 header {
     height: auto;
-    width: 100vw;
+    width: 100%;
 }

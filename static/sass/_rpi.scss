@@ -187,7 +187,6 @@ $footer_margin: ($baseline/4) 0;
 //  CSS BG Images
 //-----------------
 $homepage-bg-image: url('../themes/rpi/images/sunrise.jpg');
-$homepage-bg-image: height: 547px;
 
 $login-banner-image: none;
 $register-banner-image: none;
@@ -207,4 +206,8 @@ $video-thumb-url: '../themes/rpi/images/edx.png';
 @mixin footer_references_style {
     margin: 0 !important;
     text-align: right;
+}
+
+@mixin header_references_style {
+    height: 547px;
 }

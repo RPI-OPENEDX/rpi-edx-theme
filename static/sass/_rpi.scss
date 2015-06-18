@@ -216,7 +216,16 @@ $video-thumb-url: '../themes/rpi/images/edx.png';
     margin-right: auto;
 }
 
+.find-courses header.search,.university-profile header.search {
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .courses-container { 
     width:50%; 
-    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
 }

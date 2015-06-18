@@ -208,6 +208,6 @@ $video-thumb-url: '../themes/rpi/images/edx.png';
     text-align: right;
 }
 
-@mixin header_references_style {
+.home>header {
     height: 547px;
 }

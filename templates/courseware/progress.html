@@ -98,7 +98,7 @@ from django.utils.http import urlquote_plus
                 %endif
         </div>
         %endif
-%if staff_access
+%if staff_access:
       %if not course.disable_progress_graph:
         <div class="grade-detail-graph" id="grade-detail-graph" aria-hidden="true"></div>
       %endif
@@ -212,7 +212,7 @@ from django.utils.http import urlquote_plus
         %endif
         %endfor
       </div> <!--End chapters-->
-%else  
+%else:  
           <div class="notnow"> Please contact your course instuctor for grade information</div>
 %endif
           

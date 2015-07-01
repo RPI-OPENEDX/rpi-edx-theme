@@ -231,3 +231,7 @@ $video-thumb-url: '../themes/rpi/images/edx.png';
     margin-left:auto;
     margin-right:auto;
 }
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li a.active {
+ background-color: #ed1c29;
+}

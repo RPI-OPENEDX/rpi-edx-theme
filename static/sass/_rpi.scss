@@ -234,6 +234,6 @@ $video-thumb-url: '../themes/rpi/images/edx.png';
  background-color: #ff7c85 !important;
 }
 
-a.dropdown {
-    padding: 10 !important;
+header.global .user>.primary:last-child>a {
+    padding: 10px !important;
 }
